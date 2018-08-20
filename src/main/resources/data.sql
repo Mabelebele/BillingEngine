@@ -1,0 +1,25 @@
+
+INSERT INTO `Billing_Engine`.`INVOICE` (`ID`,`CLIENT`, `VAT_RATE`, `INVOICE_DATE`) VALUES (1, 'stanley', '15', '2018-07-15');
+INSERT INTO `Billing_Engine`.`INVOICE` (`ID`,`CLIENT`, `VAT_RATE`, `INVOICE_DATE`) VALUES (2, 'nelson', '15', '2018-07-15');
+INSERT INTO `Billing_Engine`.`INVOICE` (`ID`,`CLIENT`, `VAT_RATE`, `INVOICE_DATE`) VALUES (3, 'michael', '15', '2018-07-15');
+INSERT INTO `Billing_Engine`.`INVOICE` (`ID`,`CLIENT`, `VAT_RATE`, `INVOICE_DATE`) VALUES (4, 'jacob', '15', '2018-07-15');
+INSERT INTO `Billing_Engine`.`INVOICE` (`ID`,`CLIENT`, `VAT_RATE`, `INVOICE_DATE`) VALUES (5, 'zuma', '15', '2018-07-15');
+
+
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('1', '3', 'Item 1', '3.00', '1');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('2', '5', 'Item 2', '7.00', '1');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('3', '2', 'Item 3', '12.99', '1');
+
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('4', '1', 'Item 1', '7.50', '2');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('5', '4', 'Item 2', '5.99', '2');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('6', '5', 'Item 3', '3.00', '2');
+
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('7', '1', 'Item 1', '1.45', '3');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('8', '1', 'Item 4', '11.55', '3');
+
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('9', '3', 'Item 3', '23.45', '4');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('10', '4', 'Item 2', '12.50', '4');
+
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('11', '3', 'Item 3', '12.50', '5');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('12', '4', 'Item 2', '35.50', '5');
+INSERT INTO `Billing_Engine`.`LINE_ITEMS` (`ID`, `QUANTITY`, `DESCRIPTION`, `UNIT_PRICE`, `INVOICE_ID`) VALUES ('13', '5', 'Item 4', '13.50', '5');
